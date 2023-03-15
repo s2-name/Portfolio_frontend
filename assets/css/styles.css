@@ -247,6 +247,10 @@ header .social-links{
 .about-title{
     font-size: 3em;
 }
+#about .about-text{
+    font-size: 1.3em;
+    margin: 20px 0;
+}
 
 .title{
     text-align: center;
@@ -764,7 +768,7 @@ footer#contacts{
         height: 100%;
     }
     #contacts{
-        min-height: 750px;
+        min-height: 800px;
     }
     #contacts .flex-container{
         flex-direction: column-reverse;
@@ -777,5 +781,13 @@ footer#contacts{
 @media (max-height: 400px){
     .slide{
         height: auto;
+    }
+}
+@media (max-width: 400px){
+    header .buttons-container, #projects .buttons{
+        flex-wrap: wrap;
+    }
+    header .buttons-container .button-one, #projects .buttons .button-two{
+        margin-left: 50%;
     }
 }
