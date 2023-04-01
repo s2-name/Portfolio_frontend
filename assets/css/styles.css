@@ -133,7 +133,7 @@ header.header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url('/assets/imgs/header_background.png');
+    background-image: url('../imgs/header_background.png');
     background-position: right;
     color: var(--text-color);
 }
@@ -234,7 +234,7 @@ header .social-links{
     background-color: var(--background-color);
     justify-content: center;
     align-items: end;
-    background-image: url('/assets/imgs/about_background.png');
+    background-image: url('../imgs/about_background.png');
     background-position: left;
 }
 #about .about-container{
@@ -459,7 +459,7 @@ header .social-links{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-image: url('/assets/imgs/about_background.png');
+    background-image: url('../imgs/about_background.png');
 }
 #projects .project-display::before{
     content: "";
