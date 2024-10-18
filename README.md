@@ -1,2 +1,2 @@
 # Portfolio_frontend
-[Watch](https://nextluckyone.tk/)
+[Watch](https://s2-name.github.io/Portfolio_frontend/)
